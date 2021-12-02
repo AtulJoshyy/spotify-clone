@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/277d56dd13.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+
+    <title>Music Player</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="sidebar">
+        <div class="logo">
+          <img src="/Assets/logo.png" alt="logo" id="main-logo" />
+        </div>
+        <div class="links">
+          <div class="link">
+            <i class="material-icons">home</i>
+            <h3>Home</h3>
+          </div>
+          <div class="link">
+            <i class="material-icons">search</i>
+            <h3>Search</h3>
+          </div>
+          <div class="link">
+            <i class="material-icons">library_music</i>
+            <h3>Your Library</h3>
+          </div>
+          <br />
+          <div class="sidebar-playlist">
+            <div class="link">
+              <i class="material-icons">add_box</i>
+              <h3>Create Playlist</h3>
+            </div>
+            <div class="link">
+              <i class="material-icons">favorite</i>
+              <h3>Liked songs</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="main-content">
+        <div class="top-header">
+          <div class="greeting">
+            <h2>Good morning, Atul</h2>
+          </div>
+          <div class="profile">
+            <img src="/Assets/profile-pic.png" alt="" />
+            <h3>Atul Joshy</h3>
+          </div>
+        </div>
+        <!-- <div class="greeting">
+                <h1 class="greeting">Good Morning, Atul</h1>
+            </div> -->
+        <div class="card-grid">
+          <div class="card">
+            <img src="image-blue.png" id="i" alt="" />
+            <div class="card-info">
+              <h3>Playlist 1</h3>
+              <img src="/Assets/play.svg" alt="" />
+            </div>
+          </div>
+          <div class="card">
+            <img src="/Assets/placeholder-img.png" alt="" />
+            <div class="card-info">
+              <h3>Playlist 2</h3>
+              <img src="/Assets/play.svg" alt="" />
+            </div>
+          </div>
+          <div class="card">
+            <img src="/Assets/placeholder-img.png" alt="" />
+            <div class="card-info">
+              <h3>Playlist 3</h3>
+              <img src="/Assets/play.svg" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="card-grid">
+          <div class="card">
+            <img src="/Assets/placeholder-img.png" alt="" />
+            <div class="card-info">
+              <h3>Playlist 1</h3>
+              <img src="/Assets/play.svg" alt="" />
+            </div>
+          </div>
+          <div class="card">
+            <img src="/Assets/placeholder-img.png" alt="" />
+            <div class="card-info">
+              <h3>Playlist 2</h3>
+              <img src="/Assets/play.svg" alt="" />
+            </div>
+          </div>
+          <div class="card">
+            <img src="/Assets/placeholder-img.png" alt="" />
+            <div class="card-info">
+              <h3>Playlist 3</h3>
+              <img src="/Assets/play.svg" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="fav-songs">
+          <div class="section-title">
+            <h2>Favorite Songs</h2>
+            <h3>Non-stop music based on your favorite songs and artists.</h3>
+          </div>
+          <div class="fav-song-grid">
+            <div class="fav-song-card">
+              <div class="fav-song-img">
+                <img src="/Assets/placeholder-img.png" alt="" />
+              </div>
+              <div class="fav-song-title">
+                <h2>Song 1</h2>
+                <h3>Artist name</h3>
+              </div>
+            </div>
+            <div class="fav-song-card">
+              <div class="fav-song-img">
+                <img src="/Assets/placeholder-img.png" alt="" />
+              </div>
+              <div class="fav-song-title">
+                <h2>Song 1</h2>
+                <h3>Artist name</h3>
+              </div>
+            </div>
+            <div class="fav-song-card">
+              <div class="fav-song-img">
+                <img src="/Assets/placeholder-img.png" alt="" />
+              </div>
+              <div class="fav-song-title">
+                <h2>Song 1</h2>
+                <h3>Artist name</h3>
+              </div>
+            </div>
+            <div class="fav-song-card">
+              <div class="fav-song-img">
+                <img src="/Assets/placeholder-img.png" alt="" />
+              </div>
+              <div class="fav-song-title">
+                <h2>Song 1</h2>
+                <h3>Artist name</h3>
+              </div>
+            </div>
+            <div class="fav-song-card">
+              <div class="fav-song-img">
+                <img src="/Assets/placeholder-img.png" alt="" />
+              </div>
+              <div class="fav-song-title">
+                <h2>Song 1</h2>
+                <h3>Artist name</h3>
+              </div>
+            </div>
+            <div class="fav-song-card">
+              <div class="fav-song-img">
+                <img src="/Assets/placeholder-img.png" alt="" />
+              </div>
+              <div class="fav-song-title">
+                <h2>Song 1</h2>
+                <h3>Artist name</h3>
+              </div>
+            </div>
+            <div class="fav-song-card">
+              <div class="fav-song-img">
+                <img src="/Assets/placeholder-img.png" alt="" />
+              </div>
+              <div class="fav-song-title">
+                <h2>Song 1</h2>
+                <h3>Artist name</h3>
+              </div>
+            </div>
+            <div class="fav-song-card">
+              <div class="fav-song-img">
+                <img src="/Assets/placeholder-img.png" alt="" />
+              </div>
+              <div class="fav-song-title">
+                <h2>Song 1</h2>
+                <h3>Artist name</h3>
+              </div>
+            </div>
+            <div class="fav-song-card">
+              <div class="fav-song-img">
+                <img src="/Assets/placeholder-img.png" alt="" />
+              </div>
+              <div class="fav-song-title">
+                <h2>Song 1</h2>
+                <h3>Artist name</h3>
+              </div>
+            </div>
+            <div class="fav-song-card">
+              <div class="fav-song-img">
+                <img src="/Assets/placeholder-img.png" alt="" />
+              </div>
+              <div class="fav-song-title">
+                <h2>Song 1</h2>
+                <h3>Artist name</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="progress-bar">
+        <input
+          type="range"
+          min="?"
+          max="100"
+          value="0"
+          id="duration-bar"
+          on
+          change="change_duration("
+        />
+      </div>
+
+      <div class="footer-left">
+        <img src="./Assets/placeholder-img.png" alt="" />
+        <div class="footer-song-info">
+          <h4>Song name</h4>
+          <h4>Artist name</h4>
+        </div>
+      </div>
+      <div class="footer-center">
+        <div class="tooltip">
+          <i class="material-icons">shuffle</i>
+          <span class="tooltiptext">Enable shuffle</span>
+        </div>
+        <div class="tooltip">
+          <i class="material-icons">skip_previous</i>
+          <span class="tooltiptext">Previous</span>
+        </div>
+        <div class="tooltip">
+          <i class="material-icons" class="play-footer-btn" id="mainPlay"
+            >play_circle_filled</i
+          >
+          <span class="tooltiptext" id="play-tooltip">Play</span>
+        </div>
+        <div class="tooltip">
+          <i class="material-icons">skip_next</i>
+          <span class="tooltiptext">Next</span>
+        </div>
+        <div class="tooltip">
+          <i class="material-icons">repeat</i>
+          <span class="tooltiptext">Enable repeat</span>
+        </div>
+      </div>
+      <div class="footer-right">
+        <i class="material-icons">devices</i>
+        <i class="material-icons">library_music</i>
+        <i class="material-icons">mic</i>
+        <i class="material-icons" id="volume-icn">volume_up</i>
+        <input
+          type="range"
+          min="0"
+          max="10"
+          value="10"
+          class="slider"
+          id="volume-bar"
+          step="0.1"
+        />
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+    <script src="colour-picker.js"></script>
+  </body>
+</html>
